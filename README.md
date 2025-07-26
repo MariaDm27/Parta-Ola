@@ -1,11 +1,11 @@
-# Parta Ola Game (2025 Edition)
+# Parta Ola Game 
 
 A Python implementation of the classic game **"Πάρτα Όλα"** (Take It All).  
-Originally created in 2019, this is a modern, optimized version (2025) with a cleaner and more modular design.
+Originally created in 2019.
 
 ---
 
-## 📌 How the Game Works
+## How the Game Works
 - The game is played by **2 or more players**.
 - Each player starts with the same number of beans (or tokens).
 - At the start of each round, all active players put **1 bean into the pot**.
@@ -21,7 +21,7 @@ Originally created in 2019, this is a modern, optimized version (2025) with a cl
 
 ---
 
-## ✅ Features
+## Features
 - Random selection of the starting player.
 - Dynamic number of players and starting beans.
 - Automatic handling of eliminations and pot updates.
@@ -30,20 +30,20 @@ Originally created in 2019, this is a modern, optimized version (2025) with a cl
 
 ---
 
-## ▶️ How to Run
+## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/parta-ola.git
-   cd parta-ola
+   git clone https://github.com/yourusername/Parta-Ola.git
+   cd Parta-Ola
    ```
 2. Run the game:
    ```bash
-   python parta_ola.py
+   python parta-ola-2019.py
    ```
 
 ---
 
-## 💡 Example Output
+## Example Output
 ```
 Number of players: 3
 Number of beans per player: 2
@@ -68,20 +68,10 @@ Game finished: Player 2 wins
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
-├── parta_ola.py   # Main game file
-├── README.md      # Project documentation
+├── parta-ola-2019.py   # Main game file
+├── parta-ola-2025.py   # New improved game file
+├── README.md           # Project documentation
+├── python-2019.pdf  
 ```
-
----
-
-## 📜 License
-This project is licensed under the MIT License.  
-You are free to use, modify, and distribute this project.
-
----
-
-## 👩‍💻 Author
-- Original Version (2019): **Maria Dimitropoulou**
-- Modern Version (2025): **Refactored & Optimized**
